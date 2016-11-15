@@ -1,1 +1,4 @@
 # Build_Gradle_Project
+Android Studio中的Project采用Gradle脚本来创建。而对于早期的Android Project，如Eclipse ADT版本的项目，需要手动创建Gradle脚本，相当于向Android Studio指明自己的Project的基本架构。
+
+一个最基本的Android Project for Gradle，只需要本工程中的这三个gradle脚本就可以了，把3个脚本拷贝到Project内对应的地方，配置好app/build.gradle中的各个文件夹的路径和application id，然后用Android Studio打开根目录下的build.gradle脚本，就可以自动识别和构建Android Project啦。
